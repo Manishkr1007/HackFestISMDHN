@@ -44,7 +44,7 @@ function Login({
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 bg-transparent'
-                        placeholder="Enter your email"
+                        placeholder="Enter your password"
                         type={"password"}
                     />
                 </div>
@@ -74,7 +74,7 @@ function Login({
                     <p className='font-medium text-base'>Don't have an account?</p>
                     <button 
                         onClick={() => setAuthState('register')}
-                        className='ml-2 font-medium text-base text-violet-500'>Sign up</button>
+                        className='ml-2 font-medium text-base text-violet-500'>Sign Up</button>
                 </div>
             </div>
         </div>
